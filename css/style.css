@@ -79,17 +79,34 @@ body{
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
     }
-}
-
-@media (max-width: 576px) {
     .carousel-caption h4 {
-        font-size: 18px;
-        font-weight: 500 !important;
+        font-size: 12px;
+        font-weight: 100 !important;
     }
 
     .carousel-caption h1 {
         font-size: 30px;
-        font-weight: 600 !important;
+        font-weight: 700 !important;
+    }
+    #mid h3 {
+      font-size: 20px;
+      font-weight: 600 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h4 {
+        font-size: 9px;
+        font-weight: 500 !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 10px;
+        font-weight: 200 !important;
+    }
+    #mid h3 {
+      font-size: 17px;
+      font-weight: 600 !important;
     }
 }
 
@@ -105,7 +122,7 @@ body{
 }
 
 .bg-hero {
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/carousel1.png) top right no-repeat;
     background-size: cover;
 }
 
