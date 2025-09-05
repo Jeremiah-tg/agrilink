@@ -79,14 +79,16 @@ body{
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
     }
-    .carousel-caption h4 {
-        font-size: 12px;
-        font-weight: 100 !important;
+    .carousel-caption h3 {
+        font-size: 30px;
+        width: 50%;
+        font-weight: 800 !important;
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
-        font-weight: 700 !important;
+        font-size: 19px;
+        width: 40%;
+        font-weight: 200 !important;
     }
     #mid h3 {
       font-size: 20px;
@@ -95,15 +97,21 @@ body{
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h4 {
-        font-size: 9px;
+    .carousel-caption h3 {
+        font-size: 15px;
+        width: 45%;
+        /* visibility: hidden; */
         font-weight: 500 !important;
     }
 
     .carousel-caption h1 {
         font-size: 10px;
-        font-weight: 200 !important;
+        width: 50%;
+        font-weight: 400 !important;
     }
+      .carousel-caption a{
+        width: 50%;
+      }
     #mid h3 {
       font-size: 17px;
       font-weight: 600 !important;
@@ -135,12 +143,12 @@ body{
 }
 
 .bg-vegetable {
-    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .9)), url(../img/vegetable.png) bottom right no-repeat;
+    background: linear-gradient(rgba(52, 173, 84, .4), rgba(52, 173, 84, .7)), url(../img/vege.png) bottom right no-repeat;
     background-size: contain;
 }
 
 .bg-fruit {
-    background: linear-gradient(rgba(255, 153, 51, .6), rgba(255, 153, 51, .9)), url(../img/fruit.png) bottom right no-repeat;
+    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .7)), url(../img/vegee.png) bottom right no-repeat;
     background-size: contain;
 }
 #aboutbg{
