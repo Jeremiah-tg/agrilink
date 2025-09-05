@@ -116,8 +116,14 @@ body{
       font-size: 17px;
       font-weight: 600 !important;
     }
-}
 
+}
+#mid h3{
+  text-align: left;
+}
+#mid {
+  text-align: justify;
+}
 .carousel-control-prev,
 .carousel-control-next {
     width: 10%;
