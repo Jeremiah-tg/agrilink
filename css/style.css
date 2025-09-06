@@ -2,8 +2,17 @@
 html{
   scroll-behavior: smooth;
 }
+/* Agri-Link Logo Colors
+Dark Blue:#003866;
+Army Green:#437A5A;
+Orange:#9D630F
+Pale Brown:#958741;
+Whire:#FFFFFF;
+Black:#000000;
+ */
 :root {
     --primary: #34AD54;
+    /*437A5A  34AD54*/
     --secondary: #003866;
     /* 003866 134D8B*/
     --light: #F6FFF2;
