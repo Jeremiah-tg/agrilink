@@ -4,17 +4,15 @@ html{
 }
 :root {
     --primary: #34AD54;
-    --secondary: #134D8B;
+    --secondary: #003866;
+    /* 003866 134D8B*/
     --light: #F6FFF2;
     --dark: #263A4F;
 }
 body{
   font-family: 'Montserrat';
-  /* text-align: justify; */
 }
-/* #134D8B - deep blue color */
 .btn {
-    /* font-family: 'fangsong'; */
     letter-spacing: 1px;
     font-weight: 700;
     transition: .5s;
