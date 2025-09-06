@@ -157,8 +157,14 @@ body{
     background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .7)), url(../img/vegee.png) bottom right no-repeat;
     background-size: contain;
 }
+#agriAccordion{
+  text-align: justify;
+}
 #aboutbg{
-    /* background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .9)); */
+  width: 104.3%;
+    background: linear-gradient(rgba(52, 173, 84, 100), rgba(52, 173, 84, 100));
+    /* (rgba(255, 153, 51, .9), rgba(255, 153, 51, .0)); */
+    background-size: contain;
 }
 
 .service-item {
