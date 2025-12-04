@@ -31,6 +31,13 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Features Start with Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1200, once: true });
+    </script>
 </head>
 
 <body>
@@ -460,57 +467,75 @@
 <!-- Services End -->
 
 
-    <!-- Features Start -->
     <div class="container-fluid bg-primary feature py-5 pb-lg-0 my-5">
         <div class="container py-5 pb-lg-0">
-            <div class="mx-auto text-center mb-3 pb-2" style="max-width: 500px;">
+            <div class="mx-auto text-center mb-3 pb-2" style="max-width: 500px;" data-aos="fade-down">
                 <h6 class="text-uppercase text-secondary">Features</h6>
                 <h1 class="display-8 text-white">Why Choose Agri-Link?</h1>
             </div>
             <div class="row g-5">
+    
+                <!-- Left Column -->
                 <div class="col-lg-3">
-                    <div class="text-white mb-5">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                    <div class="text-white mb-5" data-aos="fade-right">
+                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-seedling fs-4 text-white"></i>
                         </div>
                         <h4 class="text-white">100% Accessible</h4>
                         <p class="mb-0">Works on any phone via SMS/USSD.</p>
                     </div>
-                    <div class="text-white">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+    
+                    <div class="text-white" data-aos="fade-right" data-aos-delay="200">
+                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-award fs-4 text-white"></i>
                         </div>
                         <h4 class="text-white">Award Winning</h4>
                         <p class="mb-0">Winners of 2024 Green Growth AgriHack Hackathon.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="d-block bg-white h-100 text-center p-5 pb-lg-0">
-                      <p>Because Agri-Link is not just a tool — it’s a movement. We are <strong>building the future of African agriculture data infrastructure</strong> while solving real problems for farmers today.
-                        From SMS market prices to SMS 4Acre Model training, our solution is <strong>affordable, scalable, and award-winning.</strong></p>
-                        <img class="img-fluid" src="img/Agri.png" alt="">
+    
+                <!-- Middle Column -->
+                <div class="col-lg-6" data-aos="zoom-in">
+                    <div class="d-block bg-white h-100 text-center p-5 pb-lg-0 animate__animated animate__fadeInUp">
+                        <p>
+                            Because Agri-Link is not just a tool — it’s a movement. We are <strong>building the future of
+                                African agriculture data infrastructure</strong> while solving real problems for farmers
+                            today.
+                            From SMS market prices to SMS 4Acre Model training, our solution is <strong>affordable,
+                                scalable, and award-winning.</strong>
+                        </p>
+                        <img class="img-fluid animate__animated animate__bounceIn" src="img/Agri.png" alt="">
                     </div>
                 </div>
+    
+                <!-- Right Column -->
                 <div class="col-lg-3">
-                    <div class="text-white mb-5">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                    <div class="text-white mb-5" data-aos="fade-left">
+                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-tractor fs-4 text-white"></i>
                         </div>
                         <h4 class="text-white">Modern Farming</h4>
                         <p class="mb-0">From 4Acre models to hydroponics, simplified into SMS lessons.</p>
                     </div>
-                    <div class="text-white">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+    
+                    <div class="text-white" data-aos="fade-left" data-aos-delay="200">
+                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt fs-4 text-white"></i>
                         </div>
                         <h4 class="text-white">24/7 Support</h4>
                         <p class="mb-0">Always available in local languages.</p>
                     </div>
                 </div>
+    
             </div>
         </div>
     </div>
-    <!-- Features Start -->
+    <!-- Features End -->
+
 
 
 
