@@ -85,7 +85,7 @@ body{
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
-        margin-bottom: 45%;
+        margin-bottom: 0%;
     }
     .carousel-caption h3 {
         font-size: 30px;
@@ -107,7 +107,7 @@ body{
 @media (max-width: 576px) {
     .navbar-dark .navbar-nav .nav-link {
             padding: 10px;
-            margin-bottom: 45%;
+            margin-bottom: 0%;
         }
     .carousel-caption h3 {
         font-size: 15px;
@@ -155,7 +155,7 @@ body{
 @media (min-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link {
             padding: 10px;
-            margin-bottom: 45%;
+            margin-bottom: 0%;
         }
     .banner {
         position: relative;
